@@ -4,11 +4,11 @@
 </template>
 
 <script>
-  import test1 from './test1.vue'
+  import login_page from './login.vue'
   export default {
     data() {
       return {
-        pageStack: [test1]
+        pageStack: [login_page]
       }
     }
   }

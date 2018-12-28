@@ -7,8 +7,6 @@ require('onsenui/css-components-src/src/onsen-css-components.css');
 require('onsenui/css/onsenui.css');
 
 import App from './App.vue';
-//import test1 from './test1.vue'
-//import test2 from './test2.vue'
 
 Vue.use(VueOnsen);
 

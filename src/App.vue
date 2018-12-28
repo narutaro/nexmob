@@ -1,0 +1,15 @@
+<template>
+  <v-ons-navigator swipeable :page-stack="pageStack" @push-page="pageStack.push($event)">
+  </v-ons-navigator>
+</template>
+
+<script>
+  import test1 from './test1.vue'
+  export default {
+    data() {
+      return {
+        pageStack: [test1]
+      }
+    }
+  }
+</script>

@@ -6,7 +6,7 @@ import VueOnsen from 'vue-onsenui';
 require('onsenui/css-components-src/src/onsen-css-components.css');
 require('onsenui/css/onsenui.css');
 
-import App from './App.vue';
+import App from './app.vue';
 
 Vue.use(VueOnsen);
 

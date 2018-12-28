@@ -9,11 +9,12 @@
 </template>
 
 <script>
+import datacenters from './datacenters.vue'
 export default {
   methods: {
     login() {
       console.log("login clicked");
-      //pageStack.push(P1);
+      this.$emit('push-page', datacenters);
     }
   },
   data() {
